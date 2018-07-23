@@ -3,24 +3,22 @@ package com.ldlywt.cell.emus;
 import lombok.Getter;
 
 /**
- * 商品状态
  * Created by 廖师兄
- * 2017-05-09 17:33
+ * 2017-06-11 17:12
  */
 @Getter
-public enum ProductStatusEnum implements CodeEnum {
-    UP(0, "在架"),
-    DOWN(1, "下架")
+public enum OrderStatusEnum implements CodeEnum {
+    NEW(0, "新订单"),
+    FINISHED(1, "完结"),
+    CANCEL(2, "已取消"),
     ;
 
     private Integer code;
 
     private String message;
 
-    ProductStatusEnum(Integer code, String message) {
+    OrderStatusEnum(Integer code, String message) {
         this.code = code;
         this.message = message;
     }
-
-
 }

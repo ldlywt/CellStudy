@@ -1,8 +1,8 @@
 package com.ldlywt.cell.dataobject;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.imooc.enums.ProductStatusEnum;
-import com.imooc.utils.EnumUtil;
+import com.ldlywt.cell.emus.ProductStatusEnum;
+import com.ldlywt.cell.utils.EnumUtil;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 

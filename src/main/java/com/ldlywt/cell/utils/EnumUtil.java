@@ -1,6 +1,6 @@
 package com.ldlywt.cell.utils;
 
-import com.imooc.enums.CodeEnum;
+import com.ldlywt.cell.emus.CodeEnum;
 
 /**
  * Created by 廖师兄

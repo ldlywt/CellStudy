@@ -1,7 +1,7 @@
 package com.ldlywt.cell.dataobject;
 
-import com.imooc.enums.OrderStatusEnum;
-import com.imooc.enums.PayStatusEnum;
+import com.ldlywt.cell.emus.OrderStatusEnum;
+import com.ldlywt.cell.emus.PayStatusEnum;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 
